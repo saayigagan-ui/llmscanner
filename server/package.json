@@ -1,0 +1,16 @@
+{
+  "name": "codesentinel-server",
+  "version": "1.0.0",
+  "description": "CodeSentinel local security and quality analysis engine",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^9.6.2",
+    "openai": "^4.33.0"
+  }
+}
